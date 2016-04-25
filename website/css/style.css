@@ -4,9 +4,11 @@ font-family: Multicolore;
 font-weight: bold;
 src: url("fonts/multicolore/Multicolore.otf") format("opentype");
 }
+
+
 body,
 html {
-  background: #eee;
+   background: #eee;
   width: 100%;
   height: 100%;
   overflow: hidden;
@@ -61,8 +63,43 @@ html {
   font-size: 2em;
 }
 .scar {
-	width:10%;
+	width:12%;
 	-ms-transform: rotate(-35deg); /* IE 9 */
     -webkit-transform: rotate(-35deg); /* Chrome, Safari, Opera */
     transform: rotate(-35deg);
 }
+
+
+#twitter a
+{
+	position: absolute;
+	left: calc(50% - 70px);
+	width: 50px;
+	color: #f76 !important;
+	font-size: 2em;
+	text-align: center;
+	box-shadow: none;
+
+}
+
+
+#github a
+{
+	position: absolute;
+	left: calc(50% - 15px);
+	width: 50px;
+	color: #f76 !important;
+	font-size: 2em;
+	text-align: center;
+	box-shadow: none;
+
+}
+
+#github a:hover, #twitter a:hover
+{
+	color: #000 !important;
+	font-size: 2.2 em;
+}
+
+
+
