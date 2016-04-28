@@ -1,0 +1,252 @@
+	
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:300);
+@font-face {
+font-family: Multicolore;
+font-weight: bold;
+src: url("fonts/multicolore/Multicolore.otf") format("opentype");
+}
+	
+	html, body
+	{
+		height: 100%;
+	}
+	
+	body
+	{
+		margin: 0px;
+		padding: 0px;
+		background-color: #2F4F4F;
+		font-family: 'Source Sans Pro', sans-serif;
+		font-size: 12pt;
+		font-weight: 400;
+		color: #000000;
+	}
+	
+	
+	h1, h2, h3
+	{
+		margin: 0;
+		padding: 0;
+	}
+	
+	p, ol, ul
+	{
+		margin-top: 0;
+	}
+	
+	ol, ul
+	{
+		padding: 0;
+		list-style: inline;
+	}
+	
+	p
+	{
+		line-height: 180%;
+	}
+	
+	strong
+	{
+	}
+	
+	a
+	{
+		color: #0000FF;
+	}
+	
+	a:hover
+	{
+		text-decoration: none;
+	}
+	
+
+	#header-container
+	{
+		overflow: hidden;
+		padding: 13em 0em;
+		background-size: cover;
+	}
+
+
+
+	#description-container
+	{
+		
+		background: #333;
+	}
+
+	#about-container
+	{
+		background: #EDEDED;
+	}
+
+	#demo-container
+	{
+		overflow: hidden;
+		padding: 8em 0em;
+		background: #FFF;
+	}
+	
+
+
+	#footer
+	{
+		text-align: center;
+		background-color: #bbb;
+	}
+
+	
+	#footer .title span
+	{
+		color: rgba(255,255,255,0.4);
+	}
+
+	#copyright
+	{
+		overflow: hidden;
+		padding: 5em 0em;
+		border-top: 1px solid rgba(255,255,255,0.08);
+		text-align: center;
+	}
+	
+	#copyright p
+	{
+		letter-spacing: 0.20em;
+		text-align: center;
+		text-transform: uppercase;
+		font-size: 0.80em;
+		color: rgba(255,255,255,0.3);
+	}
+	
+	#copyright a
+	{
+		text-decoration: none;
+		color: rgba(255,255,255,0.6);
+	}
+
+
+#twitter a
+{
+	position: absolute;
+	left: calc(50% - 75px);
+	width: 50px;
+	color: #ddd !important;
+	font-size: 2em;
+	text-align: center;
+	box-shadow: none;
+	padding: 5px;
+
+}
+
+
+#github a
+{
+	padding: 5px;
+	position: absolute;
+	left: calc(50% - 5px);
+	width: 50px;
+	color: #ddd !important;
+	font-size: 2em;
+	text-align: center;
+	box-shadow: none;
+
+}
+
+#github a:hover, #twitter a:hover
+{
+	color: #fff !important;
+	font-size: 2.2 em;
+}
+
+.scar {
+	padding: 10px;
+	position: absolute;
+	left: calc(1%);
+	width: 100px;
+	radius: 5px;
+	border-radius: 20%;
+}
+
+#harry-container h1
+{
+  color: #fff;
+  font-family:'Multicolore', serif;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 6em;
+  letter-spacing: 20px;
+  font-weight: 300;
+  position: relative;
+}
+
+#bot
+{
+  color: #ddd;
+  font-family: 'Open Sans', sans-serif;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 3em;
+  letter-spacing: 20px;
+  font-weight: 300;
+}
+#cs
+{
+  color: #ddd;
+  font-family: 'Open Sans', sans-serif;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 2em;
+  letter-spacing: 20px;
+  font-weight: 300;
+}
+
+#train-container h1
+{
+  padding: 100px;	
+  color: #fff;
+  font-family:'Multicolore', serif;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 3em;
+  letter-spacing: 20px;
+  font-weight: 300;
+  position: relative;
+}
+
+#demo-container h1
+{
+  padding: 20px;	
+  color: #000;
+  font-family:'Multicolore', serif;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 3em;
+  letter-spacing: 20px;
+  font-weight: 300;
+  position: relative;
+}
+
+#copyright h2
+{
+  padding: 10px;	
+  color: #fff;
+  font-family:'Multicolore', serif;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 3em;
+  letter-spacing: 20px;
+  font-weight: 300;
+  position: relative;
+}
+ ul li{
+  display: inline;
+  padding: 10px;
+}
+
+.contact{
+	font-size: 2.5em;
+}
+
+
+
+
